@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { KosarContext } from "../contexts/KosarContex";
+import { KosarContext } from "./contexts/KosarContex";
 
 function Kosar() {
   const { kosarLista } = useContext(KosarContext);

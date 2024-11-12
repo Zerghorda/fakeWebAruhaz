@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import { KosarContext } from "../contexts/KosarContex";
+import { KosarContext } from "./contexts/KosarContex";
 function Termek(props) {
   const { kosarba } = useContext(KosarContext);
   return (
     <div className="card col-lg-3 m-2">
-      <div class="card-header">
+      <div className="card-header">
         <h1>{props.elem.title}</h1>
       </div>
       <div className="card-body">

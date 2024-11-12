@@ -4,8 +4,8 @@ import "./index.css";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import reportWebVitals from "./reportWebVitals";
-import { ApiProvider } from "./contexts/ApiContext";
-import { KosarProvider } from "./contexts/KosarContex";
+import { ApiProvider } from "./components/contexts/ApiContext";
+import { KosarProvider } from "./components/contexts/KosarContex";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
